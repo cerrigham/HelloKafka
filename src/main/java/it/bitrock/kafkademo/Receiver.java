@@ -21,4 +21,5 @@ public class Receiver {
         LOGGER.info("received payload='{}'", payload);
         latch.countDown();
     }
+    //
 }
